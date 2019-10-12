@@ -1,0 +1,175 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,img
+{
+	padding:0px;
+	margin:0px;
+}
+body
+{
+	font-family: 'Roboto', sans-serif;
+}
+.button-custom
+{
+	padding:13px 40px;
+	font-size:15px;
+	background:#00457c;
+	color:#fff;
+	transition:0.3s ease;
+	text-decoration:none;
+	font-weight:700;
+}
+.button-custom:hover
+{
+	background:#2badfe;
+	color:#fff;
+}
+.boldness
+{
+	font-weight:700;
+}
+.boldness2
+{
+	font-weight:900;
+}
+.underline
+{
+	border-bottom:5px solid #2badfe;
+}
+.navbar
+{
+	margin-bottom:0px !important;
+	background:#00457c;
+	min-height:unset !important;
+	border:none;
+	border-radius:0px;
+	padding:0px 0px 20px 0px;
+	border-radius:0px;
+}
+.navbar-collapse
+{
+	padding:20px 0px 0px 0px;
+}
+.navbar a 
+{
+	color:#fff !important;
+}
+.carousel-inner
+{
+	height:500px !important;
+}
+.carousel-inner .item 
+{
+	position:relative;
+}
+.carousel-inner .item .detail 
+{
+	position:absolute;
+	background:rgba(0, 0, 0, 0.77);
+	border-radius:0px 0px 6px 6px;
+	border-top:8px solid #2badfe;
+	padding:30px;
+	left:10%;
+	top:13%;
+	color:#fff;
+	height:300px;
+	width:500px;
+	overflow:hidden;
+	
+}
+.carousel-inner .item .detail h2 span 
+{
+	font-size:45px;
+}
+.company-about
+{
+	margin:80px 0px 80px 0px;
+}
+.company-about .button-custom
+{
+	margin-top:30px !Important;
+}
+.our-services 
+{
+	background:#f9f9f9;
+	padding:80px 0px 80px 0px;
+}
+.our-services img
+{
+	width:25%;
+	margin-bottom:20px;
+}
+.our-services .service h2 
+{
+	cursor:pointer;
+}
+.our-services .service h2:hover
+{
+	color:#2badfe;
+	transition:0.3s ease;
+}
+.properties
+{
+	padding:80px 0px;
+}
+.properties .property
+{
+	overflow:hidden;
+	margin-top:50px;
+	border:1px solid #cacaca;
+	padding-bottom:20px;
+	cursor:pointer;
+	transition:0.3s ease;
+}
+.properties .property:hover
+{
+	background-color:#f7f7f7;
+}
+.properties .property h2 
+{
+	margin:15px 0px;
+	margin-left:10px;
+}
+.properties .property p
+{
+	margin-left:10px;
+}
+.properties .property .button-custom
+{
+	padding:12px 35px;
+	font-size:13px;
+	margin-left:10px;
+}
+footer
+{
+	background-color:#00457c;
+	color:#fff;
+	padding:80px 0px;
+}
+footer ul li 
+{
+	font-size:15px;
+	margin-bottom:5px;
+}
+
+
+@media screen and (max-width: 760px)
+{
+	.carousel-inner
+	{
+	height:auto !important;
+	}
+	.carousel-inner .item .detail h2
+	{
+		font-size:20px;
+	}
+	.carousel-inner .item .detail h2 span 
+	{
+	font-size:25px;
+	}
+	.carousel-inner .item .detail
+	{
+		width:350px;
+		top:4%;
+		height:230px;
+	}
+}
+	
